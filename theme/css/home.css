@@ -155,28 +155,6 @@
   -webkit-animation: animated-mouse 1.2s ease infinite;
   moz-animation: mouse-animated 1.2s ease infinite;
 }
-
-@-webkit-keyframes animated-mouse {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-}
-@-webkit-keyframes mouse-scroll {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes mouse-scroll {
   0% {
     opacity: 0;
